@@ -1,0 +1,33 @@
+#big{
+    width: 100%;
+    border-width: medium;
+    border-color: black;
+
+}
+#theBox{
+    text-align: left;
+    width: 50%;
+}
+body{
+    background-blend-mode: color-burn;
+    background-color: black;
+    font-size: 20px;
+    font-family: "Britannic Bold";
+    color: peachpuff;
+}
+input{
+    background-color: peachpuff;
+}
+button{
+    background-color: peachpuff;
+    width: 200px;
+    font-size: 18px;
+    font-family: "Britannic Bold";
+}
+button:hover{
+    background-color: burlywood;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+}

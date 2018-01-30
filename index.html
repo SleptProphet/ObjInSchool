@@ -1,0 +1,50 @@
+<!--note search functions are case sensitive-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="obj.js"></script>
+    <script src="functions.js"></script>
+    <script src="data.js"></script>
+</head>
+<body>
+    <div id="title">Organize Your School Life!</div>
+    <br>
+    <table id="big" >
+        <tr>
+            <th id="students">
+                Students
+                <br>
+                <button id="seeAllStu" onclick="seeAllStu(students)">See All Students</button>
+                <button id="addStudent" onclick="createStudent()">Add Student</button>
+                <input id="searchStudent" type="text" placeholder="Search for a Student">
+                <button onclick="searchStudent()">Search</button>
+            </th>
+            <th id="teachers">
+                Teachers
+                <br>
+                <button id="seeAllTea" onclick="seeAllTea(teachers)">See All Teachers</button>
+                <button id="addTeacher" onclick="createTeacher()">Add Teacher</button>
+                <input id="searchTeacher" type="text" placeholder="Search for a Teacher">
+                <button onclick="searchTeacher()">Search</button>
+            </th>
+            <th id="section">
+                Courses
+                <br>
+                <button id="seeAllSec" onclick="seeAllSec(sections)">See All Courses</button>
+                <button id="addSection" onclick="createSection()">Add Course</button>
+                <input id="searchSection" type="text" placeholder="Search for a Course">
+                <button onclick="searchSection()">Search</button>
+            </th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table id="theBox" align="center">
+
+    </table>
+</body>
+</html>
